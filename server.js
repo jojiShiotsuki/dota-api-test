@@ -7,54 +7,40 @@ const cors = require('cors')
 app.use(cors())
 
 let heroes = {
-	'strength' : {
-			'abaddon' : {
-				'role' : 'offlane/support',
-				'class' : 'undead'
-			},
-			'primal beast' : {
-				'role' : 'offlane/mid',
-				'class' : 'sentinel'
-			},
-		
-		
-	},
 
-	'agility' : {
-			'juggernaut' : {
-				'role' : 'carry',
-				'class' : 'orc'
-			},
-			'slark' : {
-				'role' : 'carry',
-				'class' : 'naga'
-			}
-		
-	},
+		'abaddon' : {
+			'role' : 'offlane/support',
+			'class' : 'undead'
+		},
+		'primal beast' : {
+			'role' : 'offlane/mid',
+			'class' : 'sentinel'
+		},
 
-	'intelligence' : {
-			'lion' : {
-				'role' : 'support',
-				'class' : 'orc'
-			},
-			'obsidian destroyer' : {
-				'role' : 'mid',
-				'class' : 'undead'
-			}
-		
-	},
-
-	'universal' : {
-			'snapfire' : {
-				'role' : 'support/mid',
-				'class' : 'orc'
-			},
-			'windranger' : {
-				'role' : 'support/mid',
-				'class' : 'sentinel'
-			}
-		
-	}
+		'juggernaut' : {
+			'role' : 'carry',
+			'class' : 'orc'
+		},
+		'slark' : {
+			'role' : 'carry',
+			'class' : 'naga'
+		},
+		'lion' : {
+			'role' : 'support',
+			'class' : 'orc'
+		},
+		'obsidian destroyer' : {
+			'role' : 'mid',
+			'class' : 'undead'
+		},
+		'snapfire' : {
+			'role' : 'support/mid',
+			'class' : 'orc'
+		},
+		'windranger' : {
+			'role' : 'support/mid',
+			'class' : 'sentinel'
+		}
 }
 
 app.get('/', (request, response) => {

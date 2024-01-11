@@ -10,9 +10,9 @@ async function apiRequest(){
 		const response = await fetch(`https://frightened-bikini-bee.cyclic.app/api/${category}`)
 		const data = await response.json()
 		
-		const heroInfo = data.heroes
+		const heroInfo = data.role
 
-
+		document.querySelector('h2').innerText += `${heroInfo}`
 		console.log(heroInfo)
 		
 

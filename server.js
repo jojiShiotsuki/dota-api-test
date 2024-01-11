@@ -8,7 +8,6 @@ app.use(cors())
 
 let heroes = {
 	'strength' : {
-		'heroes' : {
 			'abaddon' : {
 				'role' : 'offlane/support',
 				'class' : 'undead'
@@ -17,13 +16,11 @@ let heroes = {
 				'role' : 'offlane/mid',
 				'class' : 'sentinel'
 			},
-		}
 		
 		
 	},
 
 	'agility' : {
-		'heroes' : {
 			'juggernaut' : {
 				'role' : 'carry',
 				'class' : 'orc'
@@ -32,12 +29,10 @@ let heroes = {
 				'role' : 'carry',
 				'class' : 'naga'
 			}
-		}
 		
 	},
 
 	'intelligence' : {
-		'heroes' : {
 			'lion' : {
 				'role' : 'support',
 				'class' : 'orc'
@@ -46,12 +41,10 @@ let heroes = {
 				'role' : 'mid',
 				'class' : 'undead'
 			}
-		}
 		
 	},
 
 	'universal' : {
-		'heroes' : {
 			'snapfire' : {
 				'role' : 'support/mid',
 				'class' : 'orc'
@@ -60,7 +53,6 @@ let heroes = {
 				'role' : 'support/mid',
 				'class' : 'sentinel'
 			}
-		}
 		
 	}
 }
